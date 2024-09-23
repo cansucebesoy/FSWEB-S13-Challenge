@@ -76,8 +76,8 @@ public class CompanyTest {
         Field passwordField = employee.getClass().getDeclaredField("password");
         assertEquals(passwordField.getModifiers(), 2);
 
-        Field healthPlans = employee.getClass().getDeclaredField("healthPlans");
-        assertEquals(healthPlans.getModifiers(), 2);
+        Field healthplans = employee.getClass().getDeclaredField("healthplans");
+        assertEquals(healthplans.getModifiers(), 2);
     }
 
     @DisplayName("Employee sınıf değişkenleri doğru tipte mi ?")
